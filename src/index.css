@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+@import-normalize; /* Essa é uma forma de resertar as configurações do css da pagina. Essa forma não deu certo. A forma que usei para resertar tudo foi instalando um pacote normalize css e importando ele na minha página principal index.tsx */
+
+
+/* Esta parte grande comentada tbm é uma forma de resertar as configurações do css. Esta forma da certo e foi tiradad e um poste da Alura. */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,7 +46,7 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
-}
+} 
 
 body {
   background-color: #f6f6f6;;
@@ -48,4 +54,5 @@ body {
 
 * {
   box-sizing: border-box;
+  font-family: 'Italiana', serif;
 }
